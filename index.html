@@ -1,3 +1,11 @@
+<!--
+**************************************
+** Liquid Webs - Webdesign          **
+** Michael Stecher                  **
+** www.liquid-webs.info             **
+** michael.stecher@liquid-webs.info **
+**************************************
+-->
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
 
@@ -16,29 +24,48 @@
 <body>
 
   <header>
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-        <li>Contact</li>
-      </ul>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <!-- BRAND ---------->
+      <a class="navbar-brand" href="index.html">Navbar</a>
+
+      <!-- TOGGLER BUTTON ---------->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav">
+          <li>Home</li>
+          <li>About</li>
+          <li>Work</li>
+          <li>Contact</li>
+        </ul>
+      </div>
     </nav>
+
   </header>
 
   <!-- SECTIONS ---------->
+
+  <!-- HOME ---------->
 
   <section>
     <h1>Home</h1>
   </section>
 
+  <!-- ABOUT ---------->
+
   <section>
     <h1>About</h1>
   </section>
 
+  <!-- WORK ---------->
+
   <section>
     <h1>Work</h1>
   </section>
+
+  <!-- CONTACT ---------->
 
   <section>
     <h1>Contact</h1>
@@ -50,6 +77,9 @@
     <h2>Footer</h2>
   </footer>
 
+<!-- JAVASCRIPT ---------->
+<script src="js/jquery.min.js" type="application/javascript"></script>
+<script src="js/bootstrap.min.js" type="application/javascript"></script>
 </body>
 
 </html>
